@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Google Feud - beta version</title>
+  </head>
+  <body>
+    <!-- toggle button of theme mode-->
+    <div class="mode">
+      <i class="fa-solid fa-sun"></i>
+      <span class="dark"></span>
+      <i class="fa-solid fa-moon"></i>
+    </div>
+    <!-- logo -->
+    <div class="logo">
+      <img
+        src="https://googlefeud.com/static/7e8e63b1432fe0ccbee81affaa85196b/947d4/google_feud.webp"
+        alt="logo"
+      />
+    </div>
+    <!-- question -->
+    <div class="question">...</div>
+    <!-- frame of game -->
+    <div class="frame">
+      <!-- main input form -->
+      <div class="input">
+        <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+        <span id="theMainWord">...</span>
+        <input type="text" name="search" id="search" maxlength="20" />
+        <i class="fa-solid fa-xmark delete" id="del"></i>
+      </div>
+      <!-- container of tasks -->
+      <div class="container"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
